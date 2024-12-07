@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --color: #012970;
+}
 .logo img{
     height: 80px;
     width: 180px;
@@ -8,12 +11,18 @@ ul{
     list-style: none;
     display: inline-block;
 }
+
 a{
-    color: #4154F1;
+    color:  #013289;
     font-weight: 600;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito", serif;
     font-size: 16px;
+    font-weight: bold;
     
+}
+a:visited{
+    color: #4154F1;
+    text-decoration-color: #4154F1;
 }
 
 header{
@@ -25,8 +34,313 @@ header{
     top: 0px;
     background-color: white;
 }
-section{
+.sec-1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding-bottom: 50px;
+    padding: 40px 70px;
+    background-image: url(https://expertizo.pk/assets/img/hero-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.h1s1{
+    color: var(--color);
+    font-size: 48px;
+    font-family: "Nunito", serif;
+}
+
+.p1s1{
+    font-size: 26px;
+    font-family: "Nunito", serif;
+}
+.contact-btn {
+    background: #2563eb;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: "Nunito", serif;
+    font-size: medium;
+  }
+  
+  .contact-btn:hover {
+    background: #1d4ed8;
+  }
+  
+  .contact-btn svg {
+    transition: transform 0.2s;
+  }
+  
+  .contact-btn:hover svg {
+    transform: translateX(4px);
+  }
+ 
+  .sec-1{
+    
+    
+  }
+  .sec-2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 70px;
+}
+
+.sec-2 img{
+    height: 440px;
+    width: 600px;
+}
+.sec-2 .text{
+    height: 400px;
+    width: 600px;
+    background-color: #F6F9FF;
+    padding: 20px 40px;
+}
+.sec-2 h2,p,p{
+    font-family: "Nunito", serif;
+}
+
+#p1{
+    color: #4154F1 !important;
+    font-weight: bold;
+}
+.sec-2 h2{
+   color: var(--color);
+}
+.sec-2 p{
+    font-family: "Open Sans", serif;
+}
+  
+.sec-3 h1{
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+}
+
+.sec-3 p{
+    text-align: center;
+    font-family: "Nunito", serif;
+    color: #4154F1;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.sec-3 img{
+    width: 50px;
+    height: 50px;
+}
+.imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px 80px;
+
+}
+.imgs .img1{
+    width: 100px;
+    height: 50px;
+    margin: 20px 15px;
+}
+.imgs .img2{
+    width: 100px;
+    height: 50px;
+     margin: 20px 15px;
+}
+.imgs .img3{
+    width: 100px;
+    height: 50px;
+     margin: 20px 15px;
+}
+.imgs .img4{
+    width: 100px;
+    height: 50px;
+     margin: 20px 15px;
+}
+.imgs .img5{
+    width: 100px;
+    height: 70px;
+    margin: 20px 15px;
+}
+.imgs .img6{
+    margin: 20px 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.sec-4 p{
+    text-align: center;
+    font-family: "Nunito", serif;
+    color: #4154F1;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.sec-4 h1{
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.card {
+    padding: 20px 80px;
+    background: white;
+    border-radius: 8px;
+    border-bottom: 4px solid;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.card-blue {
+    border-bottom-color: #60A5FA;
+}
+.card-red {
+    border-bottom-color: #E9222C;
+}
+.card-purple{
+    border-bottom-color: #B50EDF;
+}
+
+.card-pink{
+    border-bottom-color: #F51F9C;
+}
+
+.card-orange {
+    border-bottom-color: #FB923C;
+}
+
+.card-green {
+    border-bottom-color: #4ADE80;
+}
+
+.card:hover {
+    color: white;
+}
+
+.card-blue:hover {
+    background-color: #60A5FA;
+}
+
+.card-orange:hover {
+    background-color: #FB923C;
+}
+
+.card-green:hover {
+    background-color: #4ADE80;
+}
+.card-red:hover {
+    background-color: #E9222C;
+}
+.card-purple:hover {
+    background-color: #B50EDF;
+}
+.card-pink:hover {
+    background-color: #F51F9C;
+}
+
+
+.icon-container {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.card-blue .icon-container {
+    background-color: #DBEAFE;
+}
+
+.card-orange .icon-container {
+    background-color: #FED7AA;
+}
+
+.card-green .icon-container {
+    background-color: #BBF7D0;
+}
+
+.card:hover .icon-container {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.card-blue .icon {
+    color: #60A5FA;
+}
+
+.card-orange .icon {
+    color: #FB923C;
+}
+
+.card-green .icon {
+    color: #4ADE80;
+}
+.card-red .icon {
+    color: #E9222C;
+}
+
+.card-purple .icon {
+    color: #B50EDF;
+}
+
+.card-pink .icon {
+    color: #F51F9C;;
+}
+
+.card:hover .icon {
+    color: white;
+}
+
+.card h2 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Nunito", serif;
+}
+
+.card p {
+    margin: 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card:hover p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.more{
+    cursor: pointer;
+    
 }

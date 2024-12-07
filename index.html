@@ -9,45 +9,165 @@
 </head>
 
 <body>
+    <div class="hero-section">
     <header>
         <div class="logo">
             <img src="expertizo logo.png" id="logo-dark" alt="">
         </div>
         <nav>
+            <!-- I'm putting home 2 in the href because if I eneter the url of website I've already visited the effect of a:visited will not be visible.  -->
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="home2">Home</a></li>
             </ul>
             <ul>
-                <li><a href="">Services</a></li>
+                <li><a href="home2">Services</a> <svg stroke="var(--color)" width="16px" height="16px"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </li>
             </ul>
             <ul>
-                <li><a href="">Portfolio</a></li>
+                <li><a href="home2">Portfolio</a></li>
             </ul>
             <ul>
-                <li><a href="">Recommendation</a></li>
+                <li><a href="home2">Recommendation</a></li>
             </ul>
             <ul>
-                <li><a href="">Career</a></li>
+                <li><a href="home2">Career</a></li>
             </ul>
             <ul>
-                <li><a href="">Product</a></li>
+                <li><a href="home2">Product</a> <svg stroke="var(--color)" width="16px" height="16px"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                    </svg></li>
             </ul>
             <ul>
-                <li><a href="">Contact</a></li>
+                <li><a href="home2">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <section class="sec-1">
+            <div class="content">
+                <h1 class="h1s1">We offer modern <br> solutions for growing <br> your business</h1>
+                <p class="p1s1">We help businesses digitally transform, build new products, and accelerate digital teams
+                </p>
+                <button class="contact-btn">
+                    Contact Us
+                    <svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>
+
+                </button>
+            </div>
+            <div class="gif">
+                <img src="gig-expertizo.gif" class="img-fluid" alt="">
+            </div>
+        </section>
+        <section class="sec-2">
+         <div class="text">
+            <p id="p1">WHO WE ARE</p>
+            <h2>Unleashing Digital Brilliance: Meet Our Web App Wizards</h2>
+            <p>At Expertizo, we are a passionate team of web app aficionados on a mission to redefine digital excellence. With a keen eye for design and a flair for innovation, we craft powerful and user-centric web applications that drive growth and elevate brands. Our relentless pursuit of perfection and commitment to cutting-edge technologies enable us to create seamless, scalable, and secure web experiences. Join us on this digital journey and unlock the true potential of your online presence. Let's turn your ideas into reality!</p>
+         </div>
+         <div class="s2-img">
+            <img src="https://expertizo.pk/assets/img/about.jpg" alt="">
+         </div>
+        </section>
         <section>
-    <div class="content">
-        <h1>We offer modern <br> solutions for growing <br> your business</h1>
-        <p>We help businesses digitally transform, build new products, and accelerate digital teams</p>
-        <button>Contact Us</button>
-    </div>
-    <div class="gif">
-        <img src="gig-expertizo.gif" class="img-fluid" alt="">
-    </div>
-</section>
+        <div class="sec-3">
+            <p>TECHNOLOGIES</p>
+            <h1>We Have Expertise On:</h1>
+        </div>
+        <div class="imgs">
+            <img class="img1" src="https://expertizo.pk/assets/img/technology/mongodb.png" alt="">
+            <img class="img2" src="https://expertizo.pk/assets/img/technology/firebase.png" alt="">
+            <img  class="img3"src="https://expertizo.pk/assets/img/technology/react.png" alt="">
+            <img class="img4" src="https://expertizo.pk/assets/img/technology/nextjs.png" alt="">
+            <img class="img5" src="https://expertizo.pk/assets/img/technology/nodejs.png" alt="">
+            <img class="img6" src="https://expertizo.pk/assets/img/technology/tailwind.png" alt="">
+        </div>
+    </section>
+    <section class="sec-4">
+        <div class="s4-text">
+            <p>WHAT WE OFFER</p>
+            <h1>Comprehensive Services and Solutions</h1>
+        </div>
+        <div class="cards-container">
+            <div class="card card-blue">
+                <div class="icon-container">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                    </svg>
+                </div>
+                <h2>Web App Development</h2>
+                <p>Efficient, innovative web app development bringing your ideas to life with cutting-edge technology and design.</p>
+            </div>
+    
+            <div class="card card-orange">
+                <div class="icon-container">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                    </svg>
+                </div>
+                <h2>Blockchain Development</h2>
+                <p>Empower projects with secure, transparent, and efficient blockchain solutions. Transforming industries through innovative development.</p>
+            </div>
+    
+            <div class="card card-green">
+                <div class="icon-container">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                    </svg>
+                </div>
+                <h2>Mobile App Development</h2>
+                <p>Crafting innovative mobile apps to elevate user experiences, transforming ideas into seamless digital realities.</p>
+            </div>
+            <div class="card card-red">
+                <div class="icon-container">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                    </svg>
+                </div>
+                <h2>Graphics Designing</h2>
+                <p>Transforming ideas into stunning visuals - your partner for creative, impactful, and tailored graphic designs.</p>
+            </div>
+            <div class="card card-purple">
+                <div class="icon-container">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                    </svg>
+                </div>
+                <h2>Trainings</h2>
+                <p>Master web & app development through our comprehensive training. Code, design, and deploy with expert guidance.</p> <br><br>
+                <div class="more">
+                <p>More Info <svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                  </p>
+                </div>
+            </div>
+            <div class="card card-pink">
+                <div class="icon-container">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+                    </svg>
+                </div>
+                <h2>Spaces</h2>
+                <p>We provide well designed & equipped spaces for training programs, meetings, conferances, workshops & other events</p> <br><br>
+                <div class="more">
+                <p>More Info <svg height="18px" width="18px" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                  </p>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 </body>
 
