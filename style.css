@@ -1,33 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-:root{
+
+:root {
     --color: #012970;
 }
-.logo img{
-    height: 80px;
-    width: 180px;
+
+html {
+    scroll-behavior: smooth;
 }
 
-ul{
+.logo img {
+    height: 80px;
+    width: 200px;
+}
+
+ul {
     list-style: none;
     display: inline-block;
 }
 
-a{
-    color:  #013289;
+a {
+    color: #013289;
+    text-decoration: none;
     font-weight: 600;
     font-family: "Nunito", serif;
     font-size: 16px;
     font-weight: bold;
-    
+
 }
-a:visited{
+
+a:active {
     color: #4154F1;
+    text-decoration: underline;
     text-decoration-color: #4154F1;
 }
 
-header{
+header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     position: sticky;
@@ -35,27 +44,29 @@ header{
     top: 0px;
     background-color: white;
 }
-.sec-1{
+
+.sec-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 50px;
-    padding: 40px 70px;
+    padding: 40px 5%;
     background-image: url(https://expertizo.pk/assets/img/hero-bg.png);
     background-repeat: no-repeat;
     margin-bottom: 100px;
 }
 
-.h1s1{
+.h1s1 {
     color: var(--color);
     font-size: 48px;
     font-family: "Nunito", serif;
 }
 
-.p1s1{
+.p1s1 {
     font-size: 26px;
     font-family: "Nunito", serif;
 }
+
 .contact-btn {
     background: #2563eb;
     color: white;
@@ -69,57 +80,60 @@ header{
     transition: background 0.2s;
     font-family: "Nunito", serif;
     font-size: medium;
-  }
-  
-  .contact-btn:hover {
-    background: #1d4ed8;
-  }
-  
-  .contact-btn svg {
-    transition: transform 0.2s;
-  }
-  
-  .contact-btn:hover svg {
-    transform: translateX(4px);
-  }
- 
-  .sec-1{
-    
-    
-  }
-  .sec-2{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px 70px;
 }
 
-.sec-2 img{
+.contact-btn:hover {
+    background: #1d4ed8;
+}
+
+.contact-btn svg {
+    transition: transform 0.2s;
+}
+
+.contact-btn:hover svg {
+    transform: translateX(4px);
+}
+
+
+.sec-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 50px;
+}
+
+.sec-2 img {
     height: 440px;
     width: 600px;
 }
-.sec-2 .text{
+
+.sec-2 .text {
     height: 400px;
     width: 600px;
     background-color: #F6F9FF;
     padding: 20px 40px;
 }
-.sec-2 h2,p,p{
+
+.sec-2 h2,
+p,
+p {
     font-family: "Nunito", serif;
 }
 
-#p1{
+#p1 {
     color: #4154F1 !important;
     font-weight: bold;
 }
-.sec-2 h2{
-   color: var(--color);
+
+.sec-2 h2 {
+    color: var(--color);
 }
-.sec-2 p{
+
+.sec-2 p {
     font-family: "Open Sans", serif;
 }
-  
-.sec-3 h1{
+
+.sec-3 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -130,64 +144,73 @@ header{
     color: #012970;
 }
 
-.sec-3 p{
+.sec-3 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
     font-weight: bold;
     letter-spacing: 1px;
 }
-.sec-3 img{
+
+.sec-3 img {
     width: 50px;
     height: 50px;
 }
-.imgs{
+
+.imgs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
-    margin: 40px 80px;
+    margin: 40px 5%;
 
 }
-.imgs .img1{
+
+.imgs .img1 {
     width: 100px;
     height: 50px;
     margin: 20px 15px;
 }
-.imgs .img2{
+
+.imgs .img2 {
     width: 100px;
     height: 50px;
-     margin: 20px 15px;
+    margin: 20px 15px;
 }
-.imgs .img3{
+
+.imgs .img3 {
     width: 100px;
     height: 50px;
-     margin: 20px 15px;
+    margin: 20px 15px;
 }
-.imgs .img4{
+
+.imgs .img4 {
     width: 100px;
     height: 50px;
-     margin: 20px 15px;
+    margin: 20px 15px;
 }
-.imgs .img5{
+
+.imgs .img5 {
     width: 100px;
     height: 70px;
     margin: 20px 15px;
 }
-.imgs .img6{
+
+.imgs .img6 {
     margin: 20px 15px;
     width: 100px;
     height: 50px;
 }
 
-.sec-4 p{
+.sec-4 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
     font-weight: bold;
     letter-spacing: 1px;
 }
-.sec-4 h1{
+
+.sec-4 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -197,14 +220,15 @@ header{
     font-weight: 700;
     color: #012970;
 }
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem;
-    max-width: 1200px;
+    max-width: 90vw;
     margin: 0 auto;
-   
+
 }
 
 .card {
@@ -220,14 +244,16 @@ header{
 .card-blue {
     border-bottom-color: #60A5FA;
 }
+
 .card-red {
     border-bottom-color: #E9222C;
 }
-.card-purple{
+
+.card-purple {
     border-bottom-color: #B50EDF;
 }
 
-.card-pink{
+.card-pink {
     border-bottom-color: #F51F9C;
 }
 
@@ -254,12 +280,15 @@ header{
 .card-green:hover {
     background-color: #4ADE80;
 }
+
 .card-red:hover {
     background-color: #E9222C;
 }
+
 .card-purple:hover {
     background-color: #B50EDF;
 }
+
 .card-pink:hover {
     background-color: #F51F9C;
 }
@@ -307,6 +336,7 @@ header{
 .card-green .icon {
     color: #4ADE80;
 }
+
 .card-red .icon {
     color: #E9222C;
 }
@@ -316,7 +346,8 @@ header{
 }
 
 .card-pink .icon {
-    color: #F51F9C;;
+    color: #F51F9C;
+    ;
 }
 
 .card:hover .icon {
@@ -341,11 +372,12 @@ header{
 }
 
 
-.more{
+.more {
     cursor: pointer;
-    
+
 }
-.sec-5 h1{
+
+.sec-5 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -355,7 +387,8 @@ header{
     font-weight: 700;
     color: #012970;
 }
-.sec-5 p{
+
+.sec-5 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
@@ -363,10 +396,11 @@ header{
     letter-spacing: 1px;
 }
 
-.sec-5 img{
-   height: 400px; 
-   width: 550px; 
+.sec-5 img {
+    height: 400px;
+    width: 550px;
 }
+
 .features-wrapper {
     display: flex;
     max-width: 800px;
@@ -418,9 +452,9 @@ header{
     font-family: "Nunito", serif;
 }
 
-.feature-item:hover .checkbox{
+.feature-item:hover .checkbox {
     background: #4F46E5;
-    
+
 }
 
 .feature-item:hover .check-icon {
@@ -432,21 +466,24 @@ header{
         flex-direction: column;
     }
 }
-.s4-container{
+
+.s4-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 60px;
-    
+
 }
-.sec-6 p{
+
+.sec-6 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
     font-weight: bold;
     letter-spacing: 1px;
 }
-.sec-6 h1{
+
+.sec-6 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -456,6 +493,7 @@ header{
     font-weight: 700;
     color: #012970;
 }
+
 .filter-buttons {
     display: flex;
     gap: 1rem;
@@ -485,6 +523,7 @@ header{
     border-color: #4F46E5;
     color: #4F46E5;
 }
+
 .sec-7 {
     padding: 50px 20px;
     background: #f5f5f5;
@@ -589,7 +628,7 @@ header{
     color: var(--color);
 }
 
-.sec-8 p{
+.sec-8 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
@@ -597,7 +636,7 @@ header{
     letter-spacing: 1px;
 }
 
-.sec-8 h1{
+.sec-8 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -607,6 +646,7 @@ header{
     font-weight: 700;
     color: #012970;
 }
+
 .sec-8 {
     padding: 60px 20px;
     background: #f8f9fa;
@@ -635,13 +675,13 @@ header{
 .s8-long-card.active {
     opacity: 1;
     transform: scale(1);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .s8-long-card:hover {
     opacity: 1;
     transform: scale(1);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .s8-stars {
@@ -701,19 +741,21 @@ header{
     font-family: "Nunito", serif;
     text-align: center;
 }
-.s8-lc{
-   display: flex;
-   gap: 10px;
+
+.s8-lc {
+    display: flex;
+    gap: 10px;
 }
 
-.sec-9 p{
+.sec-9 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
     font-weight: bold;
     letter-spacing: 1px;
 }
-.sec-9 h1{
+
+.sec-9 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -723,6 +765,7 @@ header{
     font-weight: 700;
     color: #012970;
 }
+
 .sec-9 {
     padding: 50px 20px;
     background: #fff;
@@ -742,19 +785,20 @@ header{
     background: #ffffff;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
 }
 
-.s9-card:hover img{
-    transition: transform 0.s ease; 
-}
-.s9-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+.s9-card:hover img {
+    transition: transform 0.s ease;
 }
 
-.s9-card:hover .s9-image{
+.s9-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.s9-card:hover .s9-image {
     transform: scale(0.9);
 }
 
@@ -824,14 +868,15 @@ header{
     transform: translateX(5px);
 }
 
-.sect-10 p{
+.sect-10 p {
     text-align: center;
     font-family: "Nunito", serif;
     color: #4154F1;
     font-weight: bold;
     letter-spacing: 1px;
 }
-.sect-10 h1{
+
+.sect-10 h1 {
     margin: 10px 0 0 0;
     padding: 0;
     text-align: center;
@@ -934,35 +979,65 @@ textarea.form-control {
 .submit-btn:hover {
     background: #3154b3;
 }
+.scroll-top-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+/* Style the anchor itself */
+.scroll-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #2563eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.2s;
+}
+
+.scroll-top:hover {
+    background-color: #1d4ed8;
+}
+
+.scroll-top svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
 
 @media (max-width: 768px) {
     .contact-wrapper {
         grid-template-columns: 1fr;
     }
-    
+
     .contact-info {
         grid-template-columns: 1fr;
     }
-    
+
     .form-row {
         grid-template-columns: 1fr;
     }
 }
 
-.news h2{
+.news h2 {
     color: var(--color);
     text-align: center;
     font-family: "Nunito", serif;
 }
 
-.news input{
+.news input {
     padding: 15px 180px 15px 15px;
     border: none;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 
-.news button{
+.news button {
     padding: 12px 35px;
     background-color: #1565c0;
     color: white;
@@ -971,14 +1046,16 @@ textarea.form-control {
     font-size: medium;
 }
 
-.input{
+.input {
     background-color: white;
     display: inline-block;
     margin: auto 400px;
 }
-button:hover{
-  cursor: pointer;
+
+button:hover {
+    cursor: pointer;
 }
+
 .footer-section {
     margin-top: 40px;
     padding: 40px 0;
@@ -1088,34 +1165,274 @@ button:hover{
     color: #1E40AF;
 }
 
+
 @media (max-width: 768px) {
+
     .footer-about,
     .footer-links,
     .footer-contact {
         flex: 0 0 100%;
     }
-    
+
     .footer-about {
         text-align: center;
     }
-    
+
     .social-links {
         justify-content: center;
     }
 }
-.footer-container h3{
+
+.footer-container h3 {
     font-family: "Nunito", serif;
 }
 
-.copy-right a{
+.copy-right a {
     text-decoration: none;
 }
 
-.copy-right{
+.copy-right {
     text-align: center;
 }
 
-.all-foot{
+.all-foot {
     background-color: #F6F9FF;
     padding-top: 30px;
 }
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .animate-on-scroll {
+    view-timeline-name: --reveal;
+    view-timeline-axis: block;
+    animation-timeline: --reveal;
+    animation-range: entry 25% cover 50%;
+    animation-fill-mode: both;
+    animation-duration: 0.7s;
+  }
+  
+  .animate-fade-up {
+    animation-name: fadeInUp;
+  }
+  
+  .animate-slide-left {
+    animation-name: slideInLeft;
+  }
+  
+  .animate-slide-right {
+    animation-name: slideInRight;
+  }
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav {
+      margin-top: 20px;
+    }
+  
+    .sec-1 {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .sec-2 {
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+    .sec-2 img, .sec-2 .text {
+      width: 100%;
+      height: auto;
+    }
+  
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .s4-container {
+      flex-direction: column;
+      margin: 0 20px;
+    }
+  
+    .s7-card {
+      width: calc(50% - 15px);
+    }
+  
+    .s8-lc {
+      flex-direction: column;
+    }
+  
+    .s9-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .input {
+      margin: auto 20px;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 480px) {
+    .h1s1 {
+      font-size: 32px;
+    }
+  
+    .p1s1 {
+      font-size: 18px;
+    }
+  
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .imgs {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .s7-card {
+      width: 100%;
+    }
+  
+    .contact-info {
+      grid-template-columns: 1fr;
+    }
+  
+    .form-row {
+      grid-template-columns: 1fr;
+    }
+  
+    .news input {
+      padding: 15px;
+      width: calc(100% - 30px);
+    }
+  
+    .news button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .sec-1, .sec-2, .s4-container {
+      padding: 20px 5%;
+    }
+    
+    .card {
+      padding: 20px;
+    }
+    
+    .s7-cards {
+      padding: 20px 5%;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        background-color: white;
+      }
+      
+      .logo img {
+        height: 60px;
+        width: auto;
+      }
+      
+      nav {
+        display: flex;
+      }
+      
+      .menu-toggle {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .sec-1, .sec-2, .s4-container, .s7-cards {
+      padding: 10px 5%;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        background-color: white;
+      }
+      
+      .logo img {
+        height: 60px;
+        width: auto;
+      }
+      
+      nav {
+        display: flex;
+      }
+      
+      .menu-toggle {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+      .logo img {
+        height: 60px;
+        width: auto;
+      }
+      
+      nav {
+        display: flex;
+      }
+      
+      .menu-toggle {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+      }
+  }
